@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Інформація про об'єкт</legend>
+			<div>
+				<p>Заголовок</p>
+			</div>
+			<input type="text" size="20" placeholder="Введіть назву об'єкта">
+			<p>Фото об'єкта</p>
+			<input type="file" type="file" name="photo" multiple accept="image/*,image/jpeg">
+			<p>Ціна за квадратний метр</p>
+			<input type="number" placeholder="Введіть ціну">
+			<p>Клас об'єкта</p>
+			<input type="text" placeholder="Введіть клас об'єкта">
+			<p>Статус</p>
+			<select name="status" id="status">
+	 		<option>Проект</option>
+			<option>Будується</option>
+			<option>Зданий</option>
+			<option>Скандальний</option>
+			</select>
+			<p>Рейтинг</p>
+			<input type="checkbox">
+		</fieldset>
+		<fieldset>
+			<legend>Інформація про об'єкт</legend>
+			<p>Micто</p>
+			<input type="text" placeholder="Введіть назву міста">
+			<p>Mікрорайон</p>
+			<input type="text" placeholder="Введіть назву мікрорайону">
+			<p>Вулиця</p>
+			<input type="text" placeholder="Введіть назву вулиці">
+		</fieldset>
+		<fieldset>
+			<legend>Контент</legend>
+			<textarea name="comment" cols="40" rows="10"></textarea>
+		</fieldset>
+			<button type="submit">Зберегти</button>
+			<button type="reset">Скасувати</button>
+	</body>
+</html>
